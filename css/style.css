@@ -160,6 +160,8 @@ h1{
 /*! ----------------NOSOTROS---------------- */
 
 .nosotros-section1 p{
+    display: flex;
+    justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 4vh;
     text-align: center;
@@ -180,6 +182,7 @@ h1{
     height: 30vh;
     margin: 20vh;
     display: flex;
+    justify-content: center;
     border: 2px solid black;
 }
 
@@ -224,6 +227,6 @@ footer{
 }
 
 footer ul{
-    margin-top: 3vh;
-    margin-left: 3vh;
+    margin-top: 2vh;
+    margin-left: 2vh;
 }
